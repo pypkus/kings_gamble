@@ -1,8 +1,13 @@
 [package]
-name = "KingsGamble"
+name = "kings_gamble"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+egui = "0.18.1"
+rodio = "0.15.0"
+specs = "0.18.0"
+wgpu = "0.13.1"
+glam = "0.21.2"
+serde = { version = "1.0.139", features = ["derive"] }
+serde_json = "1.0.48"
